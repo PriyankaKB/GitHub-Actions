@@ -3,6 +3,8 @@ Create a new workflow file in your application repository (such as .github/workf
 
 ## Sample YAML for self-hosted runners:
 
+
+```
 name: CI
 
 on: [push, pull_request]
@@ -14,6 +16,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo "Hello, world!"
+```
+
 
 **References: ** https://docs.github.com/en/actions/concepts/runners/self-hosted-runners
 
