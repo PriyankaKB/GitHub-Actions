@@ -12,7 +12,7 @@ Setting up a self hosted runner:
 
 3. Follow the instructions for setting up the runner for your selected image in your virtual machine.
 
-**Note:** It is better to use a cloud Virtual Machine on cloud for setting up a self-hosted runner.
+**Note:** It is better to use a Virtual Machine on cloud for setting up a self-hosted runner.
 
 
 
