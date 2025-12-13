@@ -18,7 +18,28 @@ jobs:
       run: echo "Hello, world!"
 ```
 
+## Workflow Components:
 
-**References: ** https://docs.github.com/en/actions/concepts/runners/self-hosted-runners
+<img width="721" height="515" alt="image" src="https://github.com/user-attachments/assets/10faeede-2bb6-4599-9884-e4666ebc3661" />
+
+
+### Workflow:
+A workflow is an automated process that you add to your repository.
+
+### Jobs:
+The job is the first major component within the workflow, a section of the workflow that will be associated with a runner.
+
+### Steps:
+A step is an individual task that can run commands in a job.
+
+### Actions
+The actions inside your workflow are the standalone commands that are executed. 
+
+**Note:**
+For more details on writing workflow you can refer official GitHub documentation on GitHub Actions.
+
+
+**References:**
+https://docs.github.com/en/actions/concepts/runners/self-hosted-runners
 
       
