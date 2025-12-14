@@ -1,6 +1,6 @@
 # Secrets and Variabes - GitHub Actions
 
-Setting up Repository Secrets:
+## Setting up Repository Secrets:
 
 1. Go to your Organization --> Repository --> Settings --> Secrets and variables --> Actions --> Secrets and select "New repository secret"
 <img width="1360" height="649" alt="image" src="https://github.com/user-attachments/assets/d2820741-3653-48f3-a165-12d3c6ca3966" />
@@ -14,7 +14,7 @@ Setting up Repository Secrets:
 <img width="1360" height="650" alt="image" src="https://github.com/user-attachments/assets/579e29f8-d76e-4670-9bc9-9a7962f00bec" />
  
 
-Setting up Repository Variable:
+## Setting up Repository Variable:
 1. Go to your Organization --> Repository --> Settings --> Secrets and variables --> Actions --> Variables and select "New repository secret"
 <img width="1354" height="507" alt="image" src="https://github.com/user-attachments/assets/055e79f8-ff0e-445c-a736-21ecff408c11" />
 
