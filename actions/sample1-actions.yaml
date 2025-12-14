@@ -1,10 +1,17 @@
-name: Example workflow
-run-name: ${{ github.actor }} run
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-      - name: Say hello
-        run: echo "Hello from GitHub Actions"
+name: "Hello Actions"
+description: "Greet someone"
+author: "octocat@github.com"
+
+inputs:
+    MY_NAME:
+      description: "Who to greet"
+      required: true
+      default: "World"
+
+runs:
+    uses: "docker"
+    image: "Dockerfile"
+
+branding:
+    icon: "mic"
+    color: "purple"
