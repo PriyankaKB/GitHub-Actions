@@ -1,0 +1,11 @@
+name: "My Custom Action"
+description: "Prints a greeting"
+inputs:
+  name:
+    description: "Who to greet"
+    required: true
+    default: "World"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hello ${{ inputs.name }}"
