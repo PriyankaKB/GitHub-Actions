@@ -33,4 +33,7 @@
 
 
 **Reference:** 
+
 https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets
+
+https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-variables
