@@ -1,0 +1,15 @@
+name: Build and Run App
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run application
+        run: |
+          echo "Workspace path: ${{ github.workspace }}"
+          python ${{ github.workspace }}/src/app.py
