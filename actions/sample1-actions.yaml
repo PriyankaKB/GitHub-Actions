@@ -1,0 +1,10 @@
+name: Example workflow
+run-name: ${{ github.actor }} run
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Say hello
+        run: echo "Hello from GitHub Actions"
